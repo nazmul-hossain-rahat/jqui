@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>jqui</title>
+  </head>
+
+  <body>
+
+    <!--  -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="text-center">Dialog</h3>
+          <div id="dialog" title="Basic dialog">
+          <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+         </div>
+   
+    
+ 
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- progress bar -->
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6">
+        <h3 class="text-center">progress bar</h3>
+          <div id="dialog" title="File Download">
+    <div class="progress-label">Starting download...</div>
+    <div id="progressbar"></div>
+     </div>
+<button id="downloadButton">Start Download</button>
+    <!-- progress bar -->
+       </div>
+     </div>
+   </div>
+   <!-- color animation -->
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6">
+        <h3 class="text-center">Color animation</h3>
+         <div class="toggler">
+  <div id="effect" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+    <p>
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+    </p>
+  </div>
+</div>
+ 
+<button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+ 
+       </div>
+     </div>
+   </div>
+   <!-- color animation -->
+   <!-- effect -->
+   <div class="container">
+     <div class="row">
+      <div class="col-lg-6">
+       <h3 class="text-center">Effect</h3>
+        <div class="toggler">
+  <div id="effects" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Effect</h3>
+    <p>
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+    </p>
+  </div>
+</div>
+ 
+<select name="effects" id="effectTypes">
+  <option value="blind">Blind</option>
+  <option value="bounce">Bounce</option>
+  <option value="clip">Clip</option>
+  <option value="drop">Drop</option>
+  <option value="explode">Explode</option>
+  <option value="fade">Fade</option>
+  <option value="fold">Fold</option>
+  <option value="highlight">Highlight</option>
+  <option value="puff">Puff</option>
+  <option value="pulsate">Pulsate</option>
+  <option value="scale">Scale</option>
+  <option value="shake">Shake</option>
+  <option value="size">Size</option>
+  <option value="slide">Slide</option>
+  <option value="transfer">Transfer</option>
+</select>
+ 
+<button id="buttons" class="ui-state-default ui-corner-all">Run Effect</button>
+ 
+     </div>
+   </div>
+   </div>
+   <!-- effect -->
+   <!--position  -->
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6">
+        <h3> Position</h3>
+         <div id="parent">
+  <p>
+  This is the position parent element.
+  </p>
+</div>
+ 
+<div class="positionable" id="positionable1">
+  <p>
+  to position
+  </p>
+</div>
+ 
+<div class="positionable" id="positionable2">
+  <p>
+  to position 2
+  </p>
+</div>
+ 
+<div style="padding: 20px; margin-top: 75px;">
+  position...
+  <div style="padding-bottom: 20px;">
+    <b>my:</b>
+    <select id="my_horizontal">
+      <option value="left">left</option>
+      <option value="center">center</option>
+      <option value="right">right</option>
+    </select>
+    <select id="my_vertical">
+      <option value="top">top</option>
+      <option value="center">center</option>
+      <option value="bottom">bottom</option>
+    </select>
+  </div>
+  <div style="padding-bottom: 20px;">
+    <b>at:</b>
+    <select id="at_horizontal">
+      <option value="left">left</option>
+      <option value="center">center</option>
+      <option value="right">right</option>
+    </select>
+    <select id="at_vertical">
+      <option value="top">top</option>
+      <option value="center">center</option>
+      <option value="bottom">bottom</option>
+    </select>
+  </div>
+  <div style="padding-bottom: 20px;">
+    <b>collision:</b>
+    <select id="collision_horizontal">
+      <option value="flip">flip</option>
+      <option value="fit">fit</option>
+      <option value="flipfit">flipfit</option>
+      <option value="none">none</option>
+    </select>
+    <select id="collision_vertical">
+      <option value="flip">flip</option>
+      <option value="fit">fit</option>
+      <option value="flipfit">flipfit</option>
+      <option value="none">none</option>
+    </select>
+  </div>
+</div>
+       </div>
+     </div>
+   </div>
+   <!--position  -->
+   <!-- widger -->
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6">
+        <h3>widget</h3>
+         <div>
+     <div id="my-widget1">color me</div>
+     <div id="my-widget2">color me</div>
+    <div id="my-widget3">color me</div>
+    <button id="disable">Toggle disabled option</button>
+     <button id="green">Go green</button>
+</div>
+       </div>
+     </div>
+   </div>
+   <!-- widger -->
+
+     <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    
+  </body>
+</html>
